@@ -1,0 +1,54 @@
+Day 1
+  12/31/15
+  ~ 6 hours
+  Preparing the design and finding correct libraries.
+
+Day 2
+  1/1/16
+  ~ 8 hours+
+  Finishing design, preparing the back and front end for basic video playback
+
+Day 3
+  1/2/16
+  ~ 5 hours
+  Added Chat, volume control
+
+Day 4
+  1/3/16
+  ~ 6 hours
+  Thumbs up/Thumbs down, request video, username
+  https://i.its.rip/JoyChinchilla.png
+
+Day 5
+  1/5/16
+  ~ 3 hours
+  Designing a basic Playlist and doing a loading screen
+
+ Day 6
+  1/8/16
+  ~ 6 hours
+  Implemented a login/registration system and connected it to socket.io
+
+Day 7
+  1/9/16
+  ~ 4 hours
+  Implementing the youtube api, making a playlist database display for the user
+
+Day 8
+  1/10/16
+  ~ 1 hour
+  Added a search bar to the playlist, added stuff to back end
+
+Total:
+  Hours: 39
+  Lines of code: 0
+  Days:
+  Libraries: 10
+  Websites used:
+    - http://socket.io/docs
+	- http://nodejs.org/en/docs
+	- http://stackoverflow.com
+	- http://getbootstrap.com/components
+	- http://api.jquery.com
+	- http://github.com/nodenica/youtube-node
+	- https://www.npmjs.com/package/mysql

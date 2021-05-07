@@ -1,0 +1,120 @@
+//main:room/room.scss
+
+#playlist {
+	position: fixed;
+	padding-top: 14rem;
+	padding-left: 0;
+	bottom: 50px;
+	display: none;
+	height: 100%;
+	z-index: 3;
+
+	.search-bar {
+		height: 47px;
+		background-color: #202225;
+		padding: 2px 10px;
+
+		.input-group {
+			top: 5px;
+		}
+
+		.input-group-addon {
+			top: 0px;
+		}
+	}
+
+	.playlists {
+		height: 100%;
+		background-color: #1B1B1B;
+
+		ul, li {
+			padding: 0;
+			list-style: none;
+		}
+
+		.button {
+			width: 100%;
+			margin: 2px 0px;
+			color: white;
+
+			* {
+				margin-left: 5px;
+				font-size: 17px;
+			}
+
+			.playlist-name {
+				margin-left: 10px;
+				text-decoration: none;
+			}
+		}
+
+		.title {
+			font-size: 28px;
+			color: gray;
+			margin-bottom: 10px;
+		}
+	}
+
+	.songlist {
+		height: 100%;
+		background-color: #101010;
+
+		li {
+			list-style: none;
+		}
+
+		.song-table {
+			width: 100%;
+			display: none;
+			//overflow-y: auto;
+
+			&.active {
+				display: block;
+			}
+		}
+
+		.song {
+			position: relative;
+			cursor: pointer;
+			padding: 0.5rem 1.5rem 0.5rem 1rem;
+			border-bottom: 1px solid #333;
+			width: 100%;
+			height: 40px;
+			display: list-item;
+			text-decoration: none;
+
+			figure {
+				margin: 0;
+				padding: 0;
+				width: 4.5rem;
+				height: 3rem;
+				position: absolute;
+				left: 1rem;
+				top: 0.5rem;
+				overflow: hidden;
+
+				img {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+				}
+			}
+
+			.info {
+				padding-right: 100px;
+				padding-left: 60px;
+				color: white;
+			}
+
+			.time {
+				display: block;
+				position: absolute;
+				right: 1.5rem;
+				top: 1rem;
+				font-size: 1.85rem;
+				font-weight: 700;
+			}
+		}
+	}
+}
